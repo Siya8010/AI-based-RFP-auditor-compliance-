@@ -1,0 +1,22 @@
+{
+  "job_id": "audit_opentext-siem-open-data-platform-ds-en_2026-06-25-15-26-49_79daaeb5",
+  "status": "running",
+  "started_at": "2026-06-25T15:26:49",
+  "finished_at": null,
+  "pdf_name": "opentext-siem-open-data-platform-ds-en.pdf",
+  "excel_path": null,
+  "log": [
+    "📄 PDF loaded: opentext-siem-open-data-platform-ds-en.pdf",
+    "🔍 Search agent initialised (Tavily + GoogleCSE fallback).",
+    "Initialising Gemini client...",
+    "Parsing PDF: /private/var/folders/3f/t13j6nk50gxbb70kjv2dn5980000gn/T/gradio/9d0af139533aa600bdecaf636d57101a8797f0ada2fe1639e3e84b48ac5bfcef/opentext-siem-open-data-platform-ds-en.pdf",
+    "Extracted 85 requirement segments.",
+    "Compiling search queries for each requirement...",
+    "Generated 85 search queries.",
+    "Fetching web context via search agent...",
+    "  Searching [1/85]: OpenDataPlatform SIEM system datasheet...",
+    "  Searching [2/85]: cybersecurity solution value unlock sustain datasheet..."
+  ],
+  "progress": 0.361,
+  "table_data": null
+}

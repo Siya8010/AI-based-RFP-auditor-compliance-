@@ -1,0 +1,18 @@
+{
+  "job_id": "audit_RFP_uem&edr_2026-06-25-22-14-51_399ef31e",
+  "status": "running",
+  "started_at": "2026-06-25T22:14:51",
+  "finished_at": null,
+  "pdf_name": "RFP_uem&edr.pdf",
+  "excel_path": null,
+  "log": [
+    "📄 PDF loaded: RFP_uem&edr.pdf",
+    "🔍 Search agent initialised (Tavily + GoogleCSE fallback).",
+    "Initialising Gemini client...",
+    "Parsing PDF: /private/var/folders/3f/t13j6nk50gxbb70kjv2dn5980000gn/T/gradio/13c614112894c0d23fc7fca580a91a321908a0e1c3994ed287526ebe0969f678/RFP_uem&edr.pdf",
+    "Extracted 2091 requirement segments.",
+    "Compiling search queries for each requirement..."
+  ],
+  "progress": 0.22,
+  "table_data": null
+}

@@ -1,0 +1,706 @@
+{
+  "job_id": "audit_RFP_Tool_Proposal_Draft_2026-06-25-22-15-46_568bde83",
+  "status": "complete",
+  "started_at": "2026-06-25T22:15:46",
+  "finished_at": "2026-06-25T22:58:20",
+  "pdf_name": "RFP_Tool_Proposal_Draft.pdf",
+  "excel_path": "/Users/siyamohapatra/Downloads/rfp_auditor 3/output/audit_RFP_Tool_Proposal_Draft_2026-06-25-22-15-46_568bde83.xlsx",
+  "log": [
+    "📄 PDF loaded: RFP_Tool_Proposal_Draft.pdf",
+    "🔍 Search agent initialised (Tavily + GoogleCSE fallback).",
+    "Initialising Gemini client...",
+    "Parsing PDF: /private/var/folders/3f/t13j6nk50gxbb70kjv2dn5980000gn/T/gradio/7724becbfd7e0f6f59b61be5bc7299adec0ee9572c782279ecfa2934c49578a1/RFP_Tool_Proposal_Draft.pdf",
+    "Extracted 68 requirement segments.",
+    "Compiling search queries for each requirement...",
+    "Generated 68 search queries.",
+    "Fetching web context via search agent...",
+    "  Searching [1/68]: AI-based RFP compliance tool software datasheet...",
+    "  Searching [2/68]: single optimized search query string...",
+    "  Searching [3/68]: oem product specifications vector database match against rfp...",
+    "  Searching [4/68]: oem product finder real-time web search engine api...",
+    "  Searching [5/68]: system architecture design principles...",
+    "  Searching [6/68]: optimised search query string \"datasheet...",
+    "  Searching [7/68]: upload rfp document management software \"datasheet\" OR \"spec...",
+    "  Searching [8/68]: page analysis technical specifications pdf...",
+    "  Searching [9/68]: web scraping software technical specifications datasheet...",
+    "  Searching [10/68]: OEM product matching requirement \n\n\"OEM product datasheet\" (...",
+    "  Searching [11/68]: compliance reporting tool match partial match non-match \"dat...",
+    "  Searching [12/68]: downloadable report PDF Excel...",
+    "  Searching [13/68]: data center architecture design guide...",
+    "  Searching [14/68]: High-availability storage system with 12TB raw capacity, 6Gb...",
+    "  Searching [15/68]: data ingestion software \"datasheet...",
+    "  Searching [16/68]: PDF text extraction page range \"datasheet...",
+    "  Searching [17/68]: PyMuPDF pdfplumber table handling comparison...",
+    "  Searching [18/68]: Data extraction software API integration \n\n(assuming the req...",
+    "  Searching [19/68]: technical specifications extraction tool software Gemini API...",
+    "  Searching [20/68]: SHA-256 hashing security datasheet...",
+    "  Searching [21/68]: 10GbE switch LACP IEEE 802.3ad \"datasheet\" filetype:pdf...",
+    "  Searching [22/68]: web search software agent...",
+    "  Searching [23/68]: Gemini hashing support enterprise switch SHA-256 \"datasheet...",
+    "  Searching [24/68]: oem product page publicly accessible free access...",
+    "  Searching [25/68]: compliance engine datasheet...",
+    "  Searching [26/68]: 10G SFP+ transceivers MSA compliant \"datasheet...",
+    "  Searching [27/68]: High-speed data storage system with 100TB raw capacity, 6Gb/...",
+    "  Searching [28/68]: confidence scoring algorithm...",
+    "  Searching [29/68]: I don't see any RFP requirement provided. Please provide the...",
+    "  Searching [30/68]: I don't see the RFP requirement text. Please provide it, and...",
+    "  Searching [31/68]: LLM hallucination prevention \"no hallucinations\" site:vendor...",
+    "  Searching [32/68]: report generation software...",
+    "  Searching [33/68]: export results to excel pdf table format...",
+    "  Searching [34/68]: compliance matrix requirement oem product status...",
+    "  Searching [35/68]: gap analysis unmet requirements match failure report...",
+    "  Searching [36/68]: source reference management software citation tool...",
+    "  Searching [37/68]: tech stack requirements specification...",
+    "  Searching [38/68]: Gemini LLM API key \"datasheet\" filetype:pdf...",
+    "  Searching [39/68]: Google Custom Search API free quota \"datasheet\" OR SerpAPI a...",
+    "  Searching [40/68]: PyMuPDF fitz PDF parsing page range handling \"datasheet...",
+    "  Searching [41/68]: python web scraping requests beautifulsoup \"tutorial...",
+    "  Searching [42/68]: gradio colab ui file upload download form-based interface...",
+    "  Searching [43/68]: python library FPDF2 pdf output openpyxl excel filetype:pdf...",
+    "  Searching [44/68]: Google Colab GPU accelerated computing \"datasheet...",
+    "  Searching [45/68]: rough phase control system datasheet...",
+    "  Searching [46/68]: optimised search query string: \n\n\"network appliance basic co...",
+    "  Searching [47/68]: Gemini API connect \"datasheet\" \"spec sheet...",
+    "  Searching [48/68]: PDF text extraction software...",
+    "  Searching [49/68]: 10G SFP+ transceiver compatibility with Cisco Nexus 9000 ser...",
+    "  Searching [50/68]: rfp ingestion software requirements extraction tool...",
+    "  Searching [51/68]: page range selector datasheet...",
+    "  Searching [52/68]: {\n  \"requirement\": \"The system shall support 100Gbps InfiniB...",
+    "  Searching [53/68]: web search agent software requirements document...",
+    "  Searching [54/68]: automated query generation software...",
+    "  Searching [55/68]: url fetching text extraction software datasheet...",
+    "  Searching [56/68]: compliance engine report generation software...",
+    "  Searching [57/68]: match scoring algorithm partial full no match...",
+    "  Searching [58/68]: evidence extraction software source linking tool datasheet...",
+    "  Searching [59/68]: report output PDF Excel filetype:pdf or filetype:xlsx...",
+    "  Searching [60/68]: UI end-to-end testing software \"datasheet...",
+    "  Searching [61/68]: gradio interface datasheet...",
+    "  Searching [62/68]: RFP REQUIREMENT:\n\n\"The system shall support up to 256GB of D...",
+    "  Searching [63/68]: repair software fix broken systems...",
+    "  Searching [64/68]: company product datasheet...",
+    "  Searching [65/68]: google cloud ai studio gemini api key documentation...",
+    "  Searching [66/68]: google custom search api free tier google cloud console...",
+    "  Searching [67/68]: Google Colab Pro workstation alternative free trial \"datashe...",
+    "  Searching [68/68]: RFP SAMPLE:\n\n\"The system shall support up to 1000 concurrent...",
+    "Auditing 68 requirements against web context...",
+    "Auditing segment 1/68 (page 1)",
+    "Auditing segment 2/68 (page 1)",
+    "Auditing segment 3/68 (page 1)",
+    "Auditing segment 4/68 (page 1)",
+    "Auditing segment 5/68 (page 1)",
+    "Auditing segment 6/68 (page 1)",
+    "Auditing segment 7/68 (page 1)",
+    "Auditing segment 8/68 (page 1)",
+    "Auditing segment 9/68 (page 1)",
+    "Auditing segment 10/68 (page 1)",
+    "Auditing segment 11/68 (page 1)",
+    "Auditing segment 12/68 (page 1)",
+    "Auditing segment 13/68 (page 1)",
+    "Auditing segment 14/68 (page 1)",
+    "Auditing segment 15/68 (page 1)",
+    "Auditing segment 16/68 (page 1)",
+    "Auditing segment 17/68 (page 1)",
+    "Auditing segment 18/68 (page 2)",
+    "Auditing segment 19/68 (page 2)",
+    "Auditing segment 20/68 (page 2)",
+    "Auditing segment 21/68 (page 2)",
+    "Auditing segment 22/68 (page 2)",
+    "Auditing segment 23/68 (page 2)",
+    "Auditing segment 24/68 (page 2)",
+    "Auditing segment 25/68 (page 2)",
+    "Auditing segment 26/68 (page 2)",
+    "Auditing segment 27/68 (page 2)",
+    "Auditing segment 28/68 (page 2)",
+    "Auditing segment 29/68 (page 2)",
+    "Auditing segment 30/68 (page 2)",
+    "Auditing segment 31/68 (page 2)",
+    "Auditing segment 32/68 (page 2)",
+    "Auditing segment 33/68 (page 2)",
+    "Auditing segment 34/68 (page 2)",
+    "Auditing segment 35/68 (page 2)",
+    "Auditing segment 36/68 (page 2)",
+    "Auditing segment 37/68 (page 2)",
+    "Auditing segment 38/68 (page 2)",
+    "Auditing segment 39/68 (page 3)",
+    "Auditing segment 40/68 (page 3)",
+    "Auditing segment 41/68 (page 3)",
+    "Auditing segment 42/68 (page 3)",
+    "Auditing segment 43/68 (page 3)",
+    "Auditing segment 44/68 (page 3)",
+    "Auditing segment 45/68 (page 3)",
+    "Auditing segment 46/68 (page 3)",
+    "Auditing segment 47/68 (page 3)",
+    "Auditing segment 48/68 (page 3)",
+    "Auditing segment 49/68 (page 3)",
+    "Auditing segment 50/68 (page 3)",
+    "Auditing segment 51/68 (page 3)",
+    "Auditing segment 52/68 (page 3)",
+    "Auditing segment 53/68 (page 3)",
+    "Auditing segment 54/68 (page 3)",
+    "Auditing segment 55/68 (page 3)",
+    "Auditing segment 56/68 (page 3)",
+    "Auditing segment 57/68 (page 3)",
+    "Auditing segment 58/68 (page 3)",
+    "Auditing segment 59/68 (page 3)",
+    "Auditing segment 60/68 (page 3)",
+    "Auditing segment 61/68 (page 3)",
+    "Auditing segment 62/68 (page 4)",
+    "Auditing segment 63/68 (page 4)",
+    "Auditing segment 64/68 (page 4)",
+    "Auditing segment 65/68 (page 4)",
+    "Auditing segment 66/68 (page 4)",
+    "Auditing segment 67/68 (page 4)",
+    "Auditing segment 68/68 (page 4)",
+    "Audit complete. 68 rows ready for export.",
+    "✅ Audit complete. 68 rows ready for export.",
+    "📊 Exporting 68 rows to Excel...",
+    "✅ Excel report saved: /Users/siyamohapatra/Downloads/rfp_auditor 3/output/audit_RFP_Tool_Proposal_Draft_2026-06-25-22-15-46_568bde83.xlsx"
+  ],
+  "progress": 1.0,
+  "table_data": [
+    [
+      "1",
+      "Project Proposal — AI-Based RFP Compliance Tool",
+      "DeepRFP or ContraVault AI",
+      "Full Match",
+      "ContraVault AI's 'Compliance Matrix Software' and DeepRFP's 'Compliance Matrix Software' explicitly mention the ability to analyze RFPs, identify compliance gaps, and generate a compliance matrix. Additionally, ContraVault AI's 'Shred requirements verbatim to build a compliance matrix...' and DeepRF…",
+      "https://deeprfp.com"
+    ],
+    [
+      "2",
+      "The system shall use Natural Language Processing (NLP) and AI to enhance query understanding.",
+      "None",
+      "Partial Match",
+      "Coveo's blog post on search query optimization mentions using NLP and AI to enhance query understanding, but it does not explicitly state that the system shall use these technologies. However, it implies their importance in improving search quality and accuracy.",
+      "https://www.coveo.com/blog/search-query-optimization"
+    ],
+    [
+      "3",
+      "The original idea was to build a RAG system that ingests OEM datasheets into a vector database and matches them against RFP requirements.",
+      "N/A",
+      "Partial Match",
+      "The context provides evidence of the importance of keeping OEM product specs up-to-date, but it does not explicitly mention ingesting datasheets into a vector database or matching them against RFP requirements. However, it does discuss the need for accurate and timely information exchange between OE…",
+      "https://ventureoutsource.com/contract-manufacturing/oem-rfp-best-practices-contract-electronic-manufacturing"
+    ],
+    [
+      "4",
+      "So we're changing the approach. Instead of a static knowledge base, the system will search the web in real time to find current OEM products that match each requirement.",
+      "None",
+      "Partial Match",
+      "The OpenWeb Ninja Real-Time Product Search API (https://www.openwebninja.com/api/real-time-product-search) provides comprehensive product details, including titles, prices, ratings & reviews, and more, from all public e-commerce sites on the web. However, it does not explicitly state that it searche…",
+      "https://www.openwebninja.com/api/real-time-product-search"
+    ],
+    [
+      "5",
+      "What the system does (rough idea)",
+      "N/A",
+      "Partial Match",
+      "The provided web search results discuss various software design principles, including separation of concerns and single responsibility principle. However, they do not explicitly address what the system does (a rough idea). The context provides a general understanding of software architecture princip…",
+      "https://localhost"
+    ],
+    [
+      "6",
+      "At a high level the user:",
+      "None",
+      "Partial Match",
+      "The OpenSearch documentation describes query string queries, which may be internally converted into prefix queries. However, it does not explicitly confirm that the vendor product meets every aspect of the requirement.",
+      "https://docs.opensearch.org/latest/query-dsl/full-text/query-string"
+    ],
+    [
+      "7",
+      "Uploads an RFP document (could be 100+ pages)",
+      "N/A",
+      "Partial Match",
+      "The context does not explicitly confirm the vendor product meets every aspect of the requirement. However, it mentions 'document centralization' and 'task assignment and workflow management', which suggests some level of document management capabilities.",
+      "https://www.arphie.ai/glossary/rfp-document-management"
+    ],
+    [
+      "8",
+      "Selects which pages to analyse — e.g. just pages 30-40 if that's where the technical specs are.",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://localhost"
+    ],
+    [
+      "9",
+      "The system pulls out the technical requirements from those pages",
+      "Scrapy or Beautiful Soup (Python libraries)",
+      "Partial Match",
+      "According to Wikipedia, web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a fo…",
+      "https://en.wikipedia.org/wiki/Web_scraping"
+    ],
+    [
+      "10",
+      "For each requirement it searches the web to find OEM products that match",
+      "N/A",
+      "Partial Match",
+      "The context provides evidence of OEM products, but does not explicitly confirm they match every aspect of the requirement. For example, from the 3M PDF: \"Product range • Directions for Use • Applications • Physical Properties • Other technical information\" (emphasis added). This suggests that while …",
+      "https://multimedia.3m.com/mws/media/2408725O/npi-toolkit-3m-oem-match-seam-sealer.pdf"
+    ],
+    [
+      "11",
+      "Generates a compliance report showing what matches, what partially matches, and what doesn't",
+      "N/A",
+      "Partial Match",
+      "The context shows that some vendor products (e.g., Compliance Copilot) can generate reports on compliance risks and track progress, but it does not explicitly mention generating a report showing what matches, partially matches, and doesn't. However, the context implies that such functionality might …",
+      "https://www.accountablehq.com/post/how-to-handle-partial-name-matches-in-oig-exclusion-screening-leie"
+    ],
+    [
+      "12",
+      "The final output would be a downloadable report (PDF or Excel) that can be shared with whoever needs it.",
+      "None",
+      "Partial Match",
+      "Some vendor products allow downloading reports in PDF and/or Excel format, but the specific formats and features vary. For example, AppViewX allows exporting reports as .xls files (https://helpcenter.appviewx.com/frontend/web/Published%20Guides/2024.0.0/Platform/Platform%20Guides/webhelp-responsive/…",
+      "https://helpcenter.appviewx.com/frontend/web/Published%20Guides/2024.0.0/Platform/Platform%20Guides/webhelp-responsive/oxy_ex-1/Reporting%20User%20Guide/output/How_to_Download_a_Report_as_an_Excel_sheet.html"
+    ],
+    [
+      "13",
+      "Architecture",
+      "N/A",
+      "Partial Match",
+      "The context provides general information on data center design, including infrastructure evaluation, scalability, flexibility, and efficiency. However, it does not explicitly confirm the vendor product meets every aspect of the requirement.",
+      "https://www.corning.com/data-center/worldwide/en/home/knowledge-center/dc-design-guide.html"
+    ],
+    [
+      "14",
+      "The storage device must have a 6Gbps SAS HBA connection.",
+      "N/A",
+      "Full Match",
+      "According to the context, multiple products support 6Gbps SAS connections. For example, the \"RAID Machine 12-bay Hotswap 6G SAS / SATA Rackmount JBOD w/ Redundant PSU\" has a 6Gbps SAS interface (https://www.storagepartsdirect.com/spd-blog/raid-machine-12-bay-hotswap-6g-sas-sata-rackmount-jbod-w-redu…",
+      "https://community.spiceworks.com/t/what-storage-device-have-6gbps-sas-hba-connection/361830"
+    ],
+    [
+      "15",
+      "1. RFP ingestion",
+      "Apache Kafka",
+      "Full Match",
+      "The web search results explicitly confirm that Apache Kafka is a cloud-based service for data ingestion and processing, capable of ingesting and analyzing large distributed data streams from thousands of different sources and is easily scalable. (Source: https://firsteigen.com/blog/10-data-ingestion…",
+      "https://firsteigen.com/blog/10-data-ingestion-tools-to-fortify-your-data-strategy"
+    ],
+    [
+      "16",
+      "User uploads a PDF. They can either process the whole thing or pick a page range. We extract just the text from those pages — nothing fancy, just get it readable for the LLM.",
+      "pypdf",
+      "Partial Match",
+      "The context shows that pypdf can extract text from PDFs and supports page ranges (https://pypdf.readthedocs.io/en/stable/user/extract-text.html). However, it does not explicitly support the ability to process the whole document or pick a page range as described in the requirement.",
+      "https://pypdf.readthedocs.io/en/stable/user/extract-text.html"
+    ],
+    [
+      "17",
+      "Library: PyMuPDF or pdfplumber (both work fine, need to test which handles tables better)",
+      "pdfplumber",
+      "Partial Match",
+      "The context shows that both PyMuPDF and pdfplumber can extract tables, but the comparison of their performance in table detection is not explicitly stated. However, it is mentioned that 'pdfplumber' distinguishes itself from other PDF processing libraries by combining features such as easy access to…",
+      "https://arxiv.org/html/2410.09871v1"
+    ],
+    [
+      "18",
+      "2. Requirement extraction",
+      "None",
+      "Partial Match",
+      "The vendor product, Docsumo AI, supports data extraction API integration with existing software systems (https://www.docsumo.com/blog/how-to-use-data-extraction-api). However, the requirement for '2. Requirement extraction' is not explicitly mentioned in the context.",
+      "https://www.docsumo.com/blog/how-to-use-data-extraction-api"
+    ],
+    [
+      "19",
+      "Send the extracted text to Gemini and ask it to pull out all the technical requirements in a structured format.",
+      "Gemini API",
+      "Partial Match",
+      "The context shows that Gemini can process documents in PDF format, extract information from conversations using the Gemini 2.0 Live API, and provide structured output. However, it does not explicitly confirm that it can pull out all technical requirements in a structured format.",
+      "https://support.google.com/gemini/thread/313900036/how-to-extract-meaningful-information-from-conversations-using-the-google-gemini-2-0-live-api?hl=en"
+    ],
+    [
+      "20",
+      "Support SHA-256 hashing",
+      "SHA-256",
+      "Full Match",
+      "The vendor product is a fully compliant implementation of the Message Digest Algorithm SHA-256, as described in RFC 6234 and FIPS PUB 180-3. It computes a 256-bit message digest for messages of up to (264 – 1) bits.",
+      "https://www.cast-inc.com/security/crypto-hash-functions/sha-256"
+    ],
+    [
+      "21",
+      "The LLM is good at this — it can pick up both explicit requirements (",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://localhost"
+    ],
+    [
+      "22",
+      "3. Web search agent",
+      "OpenAI Responses API, Anthropic Claude, or Firecrawl Search API",
+      "Partial Match",
+      "The context shows that various vendors offer web search capabilities, but the evidence is indirect and does not explicitly confirm a full match with the requirement. For example, OpenAI's Responses API has a built-in web search tool (web_search), but it is limited to models that support it. Firecraw…",
+      "https://www.firecrawl.dev/glossary/web-search-apis/web-search-tool-ai-agents"
+    ],
+    [
+      "23",
+      "For each requirement, we ask Gemini to generate a search query (e.g. \"enterprise switch SHA-256 hashing support\") and run it through Google's Search API. Fetch the top few results, scrape the text, an…",
+      "N/A",
+      "Partial Match",
+      "The context shows that Gemini supports data encryption with Customer-Managed Encryption Keys (CMEK) and External Key Manager (EKM) or hardware security module (HSM), but it does not explicitly confirm SHA-256 hashing support for enterprise switches. However, the CAST Inc. SHA-256 256-bit SHA Secure …",
+      "https://docs.cloud.google.com/gemini/enterprise/docs/security-overview"
+    ],
+    [
+      "24",
+      "The tricky part here is some OEM pages might be paywalled or require a login. We'll deal with that when we hit it — for now assume most product pages are publicly accessible.",
+      "N/A",
+      "Partial Match",
+      "Some OEMs, like Mercedes-Benz, offer free resources through their Independent Service Provider (ISP) portal, but access to OEM repair procedures often requires a subscription. Additionally, some portals, such as the Verified Products Portal, are voluntary and free to use.",
+      "https://www.repairerdrivennews.com/2023/03/24/right-to-repair-barring-oem-repair-procedures-not-an-issue-for-shops"
+    ],
+    [
+      "25",
+      "4. Compliance engine",
+      "The Compliance Engine by Brycer",
+      "Full Match",
+      "The Compliance Engine is described as 'a simple, internet-based tool for code officials to track and drive code compliance, reduce false alarm activity and provide a safer community' in multiple sources (https://www.conferenceharvester.com/uploads/harvester/exhibitors/2446/ZFESJPQR-PDF-519636-463828…",
+      "https://www.thecomplianceengine.com"
+    ],
+    [
+      "26",
+      "The vendor product must be compliant with SFF-8431 (SFP+ Electrical MSA) and support 10GBASE-T.",
+      "N/A",
+      "Partial Match",
+      "The context shows that the vendor products are compliant with SFF-8431, but there is no explicit mention of supporting 10GBASE-T. The FluxLight PDF document lists SFF-8431 as a relevant interface standard for SFP+ specifications, and the Amazon product description mentions compliance with MSA (Multi…",
+      "https://fluxlight.com/content/Tech-Docs/SFPPlus%20MSA.PDF"
+    ],
+    [
+      "27",
+      "The storage system must support at least 100TB of raw capacity.",
+      "Nimbus Data ExaDrive DC100",
+      "Full Match",
+      "According to the Nimbus Data press release, a single rack of DC100 SSDs can achieve over 100 petabytes of raw capacity. This is sufficient to meet the requirement of at least 100TB of raw capacity.",
+      "https://nimbusdata.com/press/nimbus-data-launches-worlds-largest-solid-state-drive-100-terabytes-power-data-driven-innovation"
+    ],
+    [
+      "28",
+      "Confidence score (rough number, not gospel)",
+      "None",
+      "Full Match",
+      "The context explicitly confirms that confidence scores are a way of evaluating how confident models are in their predictions, and they can be calculated using metrics such as mean squared error (MSE), R-squared, or AUC. Additionally, the concept of thresholding is mentioned, which enables developers…",
+      "https://optiic.dev/blog/confidence-scores-in-machine-learning-models"
+    ],
+    [
+      "29",
+      "A request for proposal (RFP) is a document that explains a project’s needs and asks for proposed solutions from potential vendors.",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://www.bmc.com/blogs/rfp-process"
+    ],
+    [
+      "30",
+      "A managed firewall with dual WAN failover",
+      "None",
+      "Partial Match",
+      "The vendor product meets some aspects of the requirement, but it is unclear if it includes a managed firewall with dual WAN failover. The Reddit post mentions 'a new “WiFi switch” (I assume that just means a POE switch for the Ubiquiti APs', which may or may not include a managed firewall.",
+      "https://www.reddit.com/r/msp/comments/wtb3c0/received_rfp_request_for_proposal_that_is_lacking"
+    ],
+    [
+      "31",
+      "Important: the LLM should only cite things it actually found in the retrieved content. Hallucination is a real risk here so we need to be explicit in the prompt about this.",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://localhost"
+    ],
+    [
+      "32",
+      "5. Report",
+      "N/A",
+      "Partial Match",
+      "InetSoft's report generation software provides reports that are tailored to a specific user, which can be highly effective and useful for action.",
+      "https://www.inetsoft.com/business/solutions/report_generation_tools"
+    ],
+    [
+      "33",
+      "Take all the results and put them into a clean table. Export as PDF and/or Excel.",
+      "Tabula, Adobe Acrobat Pro, or Microsoft Excel's built-in import tool",
+      "Partial Match",
+      "The context provides multiple methods for extracting tables from PDFs into Excel, but some tools have limitations (e.g., Tabula only works on simple tables).",
+      "https://learn.microsoft.com/en-us/answers/questions/5205303/export-pdf-table-into-excel"
+    ],
+    [
+      "34",
+      "Compliance matrix (requirement vs OEM product vs status)",
+      "N/A",
+      "Partial Match",
+      "The provided web search context describes various templates and tools for managing compliance, including the OEM Product Compliance Matrix Template and the OEM Regulatory Compliance Matrix Template. These resources provide a structured framework for tracking compliance requirements across various pr…",
+      "https://www.meegle.com/en_us/advanced-templates/oem_management/oem_product_compliance_matrix_template"
+    ],
+    [
+      "35",
+      "Gap analysis — what couldn't be matched",
+      "N/A",
+      "Partial Match",
+      "The context provides information on gap analysis, but it does not specifically address the concept of 'what couldn't be matched'. For example, from the article 'Conducting requirements and gap analysis in projects' (https://blog.sysco.no/business/analysis/Conducting-requirements-and-gap-analysis-in-…",
+      "https://www.strikegraph.com/blog/conduct-cmmc-gap-analysis"
+    ],
+    [
+      "36",
+      "Source references for everything",
+      "Zotero",
+      "Partial Match",
+      "Anara combines traditional reference management software with advanced AI analysis of your research materials. It handles all standard reference manager functions, such as importing from Zotero, organizing libraries, formatting citations, and generating bibliographies. But it goes further by analyzi…",
+      "https://anara.com/blog/reference-management-tools"
+    ],
+    [
+      "37",
+      "Tech stack",
+      "N/A",
+      "Partial Match",
+      "The context provides general guidelines for choosing a tech stack, but does not explicitly confirm the vendor product meets every aspect of the requirement. For example, from https://www.fingent.com/blog/top-7-tech-stacks-that-reign-software-development: 'The size of the project is a key factor to l…",
+      "https://www.fingent.com/blog/top-7-tech-stacks-that-reign-software-development"
+    ],
+    [
+      "38",
+      "LLM: Gemini 1.5 Pro — company can give us the API key, and the 1M token context window is useful when we're passing lots of web content through.",
+      "gemini-2.5-pro",
+      "Partial Match",
+      "The vendor product supports Gemini 2.5 Pro model (WHITELIST_MODELS_GEMINI=gemini-2.5-pro) and provides API key management (GEMINI_API_KEY_1=\"YOUR_GEMINI_API_KEY_1\"). However, the context window is not explicitly mentioned as 1M tokens.",
+      "https://github.com/Mirrowel/LLM-API-Key-Proxy/blob/main/.env.example"
+    ],
+    [
+      "39",
+      "Search: Google Custom Search API. 100 free queries/day is probably enough for development. If we need more we can look at SerpAPI as a backup.",
+      "SerpAPI",
+      "Partial Match",
+      "The context shows that the Google Custom Search API has a daily cap of 100 free queries, which may be sufficient for development. However, it also mentions that exceeding this limit costs $5 per 1,000 requests with a hard cap of 10,000 queries per day. This suggests that SerpAPI might be necessary f…",
+      "https://www.scraperapi.com/web-scraping/best-web-scraping-apis/google-serp-api"
+    ],
+    [
+      "40",
+      "PDF parsing: PyMuPDF (fitz). Handles page ranges cleanly.",
+      "PyMuPDF",
+      "Partial Match",
+      "The context shows that PyMuPDF can handle page ranges, but it does not explicitly confirm that it handles them 'cleanly'. The relevant sentence is: \"For example: will generate the labels “A-10”, “A-11”, “A-12”, “A-13”, “1”, “2”, “3”, … for pages 6, 7 and so on until end of document. Pages 0 through …",
+      "https://pymupdf.readthedocs.io/en/latest/document.html"
+    ],
+    [
+      "41",
+      "Web scraping: requests + BeautifulSoup. Simple, no browser overhead needed.",
+      "BeautifulSoup",
+      "Full Match",
+      "The context explicitly confirms the vendor product meets every aspect of the requirement. The excerpt from https://realpython.com/beautiful-soup-web-scraper-python states: 'In this tutorial, you’ll learn how to build a web scraper using Beautiful Soup along with the Requests library to scrape and pa…",
+      "https://realpython.com/beautiful-soup-web-scraper-python"
+    ],
+    [
+      "42",
+      "UI: Gradio — easy to set up in Colab, supports file upload and download. A chat interface was the original suggestion but honestly a simple form-based flow makes more sense here since the workflow is …",
+      "None",
+      "Partial Match",
+      "The context shows Gradio supports file upload and download, but there's no explicit mention of setting it up in Colab or implementing a simple form-based flow. However, the excerpt from https://colab.research.google.com/github/liu-bioinfo-lab/EPCOT/blob/main/gradio.ipynb does demonstrate a Gradio de…",
+      "https://colab.research.google.com/github/liu-bioinfo-lab/EPCOT/blob/main/gradio.ipynb"
+    ],
+    [
+      "43",
+      "Report output: FPDF2 for PDF, openpyxl for Excel.",
+      "FPDF2",
+      "Full Match",
+      "The GitHub repository for py-pdf/fpdf2 explicitly states that it is a PDF creation library for Python. Additionally, the Nutrient iOS blog post lists FPDF2 as one of the top 10 Python PDF generator libraries.",
+      "https://github.com/py-pdf/fpdf2"
+    ],
+    [
+      "44",
+      "Runs on: Google Colab (easy to share, free GPU if needed) or a local workstation. Either works — Colab is easier for demos and sharing progress.",
+      "N/A",
+      "Full Match",
+      "The context explicitly confirms that Colab supports running on Google Colab (https://docs.cloud.google.com/colab/docs/default-runtimes-with-gpus) with free GPU access, and also mentions that users can switch to a standard runtime if they are not utilizing the GPU. Additionally, the FAQ section of Co…",
+      "https://docs.cloud.google.com/colab/docs/default-runtimes-with-gpus"
+    ],
+    [
+      "45",
+      "Rough phases",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://localhost"
+    ],
+    [
+      "46",
+      "Phase 1 — Get the basics working",
+      "N/A",
+      "Partial Match",
+      "The context does not explicitly confirm that the vendor product meets every aspect of the requirement. However, it mentions 'Basic Information' and 'Status Normal' in the Vista Manager Network Appliance Datasheet, which suggests some level of basic functionality.",
+      "https://www.alliedtelesis.com/sites/default/files/documents/datasheets/ati-vst-apl-ds.pdf"
+    ],
+    [
+      "47",
+      "Connect Gemini API",
+      "N/A",
+      "Full Match",
+      "The API Connect provides a policy that enables your API to send requests to Gemini. The following Gemini operations are supported: `GET /models`, `GET /models/[model]`, `POST /models/[model]:generateContent`, `POST /models/[model]:countTokens`, `POST /models/[model]:embedContent`, and `POST /models/…",
+      "https://www.ibm.com/docs/en/api-connect/software/10.0.8_lts?topic=applications-using-ai-gateway-support-gemini-apis"
+    ],
+    [
+      "48",
+      "Basic PDF text extraction",
+      "Parseur's AI text extraction tool",
+      "Full Match",
+      "With Parseur's AI text extraction tool, you can automate the process and extract text from hundreds or even thousands of PDFs in seconds.",
+      "https://parseur.com/use-case/extract-text-from-pdf"
+    ],
+    [
+      "49",
+      "The SFP-10G-T-X will be supported on a variety of Cisco platforms, including NCS 5501, Nexus 9000, and Catalyst® 9000.",
+      "SFP-10G-T-X",
+      "Partial Match",
+      "The SFP-10G-T-X is supported on the NCS 5501, Nexus 9000, and Catalyst 9000 platforms. However, there are deployment limitations due to the higher power envelope of the SFP-10G-T-X.",
+      "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/at-a-glance-c45-743937.pdf"
+    ],
+    [
+      "50",
+      "Phase 2 — RFP ingestion + requirement extraction",
+      "AutoRFP.ai",
+      "Full Match",
+      "The software parses solicitations, extracts requirements, builds proposal outlines, tracks compliance, and helps teams draft against the actual structure of the bid. - RapidRFP is built for RFP automation. It parses solicitations, extracts requirements, builds proposal outlines, tracks compliance, a…",
+      "https://rapidrfp.ai"
+    ],
+    [
+      "51",
+      "Page range selector",
+      "N/A",
+      "Partial Match",
+      "The context shows that some products, such as PDF XChange (https://forum.pdf-xchange.com/viewtopic.php?t=34669), allow selecting multiple page ranges, but it is not explicitly stated that they have a 'page range selector'. However, the excerpt mentions that users can type multiple ranges into the 'r…",
+      "https://forum.pdf-xchange.com/viewtopic.php?t=34669"
+    ],
+    [
+      "52",
+      "The system must support RoCE (Remote Direct Memory Access over Converged Ethernet) and SR-IOV (Single Root I/O Virtualization)",
+      "NVIDIA Mellanox ConnectX adapter cards",
+      "Partial Match",
+      "The system supports RoCE, but the specific model of NVIDIA Mellanox ConnectX adapter cards is not specified. Additionally, SR-IOV is mentioned as a requirement, but it's unclear if the system meets this requirement.",
+      "https://www.vmware.com/docs/vsphere7x-infiniband-sriov-setup-perf"
+    ],
+    [
+      "53",
+      "The search interface SHALL support both basic (search by single keyword) and advanced search modes based on employer-defined attributes.",
+      "None",
+      "Partial Match",
+      "The context mentions that the system SHALL provide a search engine with advanced filtering capabilities, allowing job seekers to search for jobs using various criteria. However, it does not explicitly confirm support for both basic and advanced search modes based on employer-defined attributes.",
+      "https://www.enabel.be/app/uploads/2025/06/Annex-A-Detailed-Software-Requirements-Specification-SRS.pdf"
+    ],
+    [
+      "54",
+      "Automated query generation",
+      "N/A",
+      "Full Match",
+      "The AI-powered SQL Query Generator – SQLNEXT.AI (https://www.mastek.com/products/platforms-and-innovation/sql-query-generator) explicitly states that it 'Transform Requirements into Instant SQL query with automated SQL query generation'. Additionally, Text to SQL & AI Query Generator | Text2SQL.ai (…",
+      "https://www.mastek.com/products/platforms-and-innovation/sql-query-generator"
+    ],
+    [
+      "55",
+      "URL fetching and text extraction",
+      "Tesseract",
+      "Partial Match",
+      "The context shows that Tesseract is an open-source OCR engine that can handle URL fetching and text extraction, but it may struggle with tables, multi-column layouts, and poor image quality. (Source: https://www.llamaindex.ai/glossary/what-is-document-text-extraction)",
+      "https://www.opentext.com/media/data-sheet/opentext-file-content-extraction-ds-en.pdf"
+    ],
+    [
+      "56",
+      "Phase 4 — Compliance engine + report",
+      "The Compliance Engine (TCE)",
+      "Full Match",
+      "The Compliance Engine is described as 'the nation’s most widely adopted fire and life safety compliance software' that helps jurisdictions standardize and scale enforcement of inspection, testing, and maintenance requirements for fire prevention. It supports enforcement – focused workflows that go b…",
+      "https://www.thecomplianceengine.com"
+    ],
+    [
+      "57",
+      "The matching algorithm should attempt to maximize the number of matches.",
+      "None",
+      "No Match",
+      "The NRMP (National Resident Matching Program) and APPIC Match algorithms do not aim to maximize the number of matches. According to the NRMP, 'the matching algorithm is “applicant-proposing” meaning it attempts to place an applicant into the program indicated as most preferred on Applicant A’s rank …",
+      "https://www.nrmp.org/intro-to-the-match/how-matching-algorithm-works"
+    ],
+    [
+      "58",
+      "Evidence extraction and source linking",
+      "Covidence",
+      "Partial Match",
+      "Covidence is a software platform for managing independent title/abstract screening, full text screening, data extraction and risk of bias assessment in a systematic review project. Read more about how Covidence can help you customize extraction tables and export your extracted data.",
+      "https://guides.library.cornell.edu/evidence-synthesis/data-extraction"
+    ],
+    [
+      "59",
+      "PDF/Excel report output",
+      "putpdf (Stata)",
+      "Partial Match",
+      "The putpdf command in Stata allows for the creation of PDF files, but it does not explicitly support Excel report output. However, it can be used to create tables and other content that could be exported as Excel.",
+      "https://www.stata.com/manuals/rptputpdfintro.pdf"
+    ],
+    [
+      "60",
+      "Phase 5 — UI + end-to-end testing",
+      "Cypress: Modern JavaScript E2E Testing Framework",
+      "Full Match",
+      "The context explicitly confirms the vendor product meets every aspect of the requirement. Specifically, Cypress is described as a 'Modern JavaScript E2E Testing Framework' that provides natural language programming, AI-generated test suites, and unified testing for UI, API, and database testing.",
+      "https://www.virtuosoqa.com/post/best-end-to-end-testing-tools"
+    ],
+    [
+      "61",
+      "Gradio interface",
+      "gr.Interface",
+      "Full Match",
+      "The `Interface` class is Gradio's main high-level class, allowing you to create a web-based GUI / demo around a machine learning model (or any Python function) in a few lines of code. You must specify three parameters: (1) the function to create a GUI for (2) the desired input components and (3) the…",
+      "https://gradio.app/docs/gradio/interface"
+    ],
+    [
+      "62",
+      "The memory module supports Intel Extreme Memory Profiles (Intel XMP) 2.0.",
+      "N/A",
+      "Partial Match",
+      "The Kingston HX421C14FB2/8 datasheet mentions that each module has been tested to run at DDR4-2133 at a low latency timing of 14-14-14 at 1.2V, but it does not explicitly mention support for Intel XMP 2.0.",
+      "https://www.kingston.com/datasheets/HX421C14FB2_8.pdf"
+    ],
+    [
+      "63",
+      "Fix whatever breaks",
+      "None",
+      "Partial Match",
+      "The Tweaking Repair tool can restore corrupted system files with a few clicks of the mouse, but it does not explicitly mention fixing 'whatever breaks'. However, the Startup Repair tool from Microsoft Support scans for problems and tries to fix them automatically, including missing or damaged system…",
+      "https://www.tweaking.com/repair-windows-system-files-with-built-in-tools-and-tweaking"
+    ],
+    [
+      "64",
+      "What we need from the company",
+      "Product Data Sheet",
+      "Partial Match",
+      "The context describes product data sheets as documents that provide detailed information about a product's features, specifications, and benefits. However, it does not explicitly confirm that the vendor product meets every aspect of our requirement.",
+      "https://www.dock.us/library/product-datasheet-examples"
+    ],
+    [
+      "65",
+      "Gemini API key (Google AI Studio)",
+      "None",
+      "Full Match",
+      "According to the Gemini API documentation, you can get an API key by going to AI Studio and clicking on 'Get API key' or by following the instructions in the Google Cloud Documentation for getting a Google Cloud API key. Additionally, the YouTube tutorial and other web search results confirm that ob…",
+      "https://ai.google.dev/gemini-api/docs/api-key"
+    ],
+    [
+      "66",
+      "Google Custom Search API access (Google Cloud Console — free tier to start)",
+      "Custom Search JSON API",
+      "Full Match",
+      "The context explicitly confirms the vendor product meets every aspect of the requirement. According to https://developers.google.com/custom-search/v1/overview, 'To use the API, you need a configured Programmable Search Engine and an API key.' Additionally, https://meta.discourse.org/t/google-search-…",
+      "https://developers.google.com/custom-search/v1/overview"
+    ],
+    [
+      "67",
+      "Access to Google Colab Pro or a workstation if Colab is too slow for big RFPs",
+      "Paperspace Gradient",
+      "Full Match",
+      "According to the blog post 'Alternative to Colab Pro: Comparing Google's Jupyter Notebooks to Gradient Notebooks (Updated!)', Paperspace Gradient offers a range of features that Colab Pro and even Colab Pro+ do not include, such as free GPUs and IPUs, persistent storage, terminals, system metrics, v…",
+      "https://blog.paperspace.com/alternative-to-google-colab-pro"
+    ],
+    [
+      "68",
+      "A sample RFP we can use for testing (real or anonymised)",
+      "N/A",
+      "No Match",
+      "Insufficient web evidence found",
+      "https://localhost"
+    ]
+  ]
+}

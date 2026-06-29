@@ -1,0 +1,19 @@
+{
+  "job_id": "audit_RFP_Tool_Proposal_Draft_2026-06-25-22-12-28_2867c474",
+  "status": "running",
+  "started_at": "2026-06-25T22:12:28",
+  "finished_at": null,
+  "pdf_name": "RFP_Tool_Proposal_Draft.pdf",
+  "excel_path": null,
+  "log": [
+    "📄 PDF loaded: RFP_Tool_Proposal_Draft.pdf",
+    "🔍 Search agent initialised (Tavily + GoogleCSE fallback).",
+    "Initialising Gemini client...",
+    "Parsing PDF: /private/var/folders/3f/t13j6nk50gxbb70kjv2dn5980000gn/T/gradio/7724becbfd7e0f6f59b61be5bc7299adec0ee9572c782279ecfa2934c49578a1/RFP_Tool_Proposal_Draft.pdf",
+    "Extracted 68 requirement segments.",
+    "Compiling search queries for each requirement...",
+    "Generated 68 search queries."
+  ],
+  "progress": 0.35,
+  "table_data": null
+}
